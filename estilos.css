@@ -1,0 +1,288 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    
+    /*INDEX*/
+    
+    #container{
+    
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    
+    
+    }
+    
+    .imagen3{
+    
+        border-radius: 10%;
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right:15px;
+        line-height: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    
+    }
+    
+    #nav{
+    
+    width: auto;
+    background-color: rgb(95, 95, 95);
+
+    
+    }
+    
+    
+    #nav ul{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+    
+    #nav ul li{
+    
+    border-right: 2px rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    
+    }
+    
+    #nav ul li a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: bold;
+    display: block;
+    margin-left: 5px;
+    
+    }
+    
+    #nav-link-active{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c0000;
+    height: auto;
+
+    }
+    
+    #cuerpo{
+    
+        width: 90%;
+        height: 100%;
+        padding-left: 5%;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 2px;
+        display: block;
+        
+        
+        }
+
+        #cuerpo2{
+    
+            width: 90%;
+            height: 120%;
+            padding-left: 5%;
+            padding-right: 5px;
+            padding-top: 20px;
+            padding-bottom: 2px;
+            display: block;
+            
+            
+            }
+    
+    #sub0{
+    
+        color: rgb(0, 0, 0);
+        text-align: left;
+        margin-left: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        text-shadow: 100px black;
+            
+    }
+    
+    #sub1{
+    
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow: 100px black;
+    
+    }
+    
+    .parrafo1{
+    
+        color: rgb(0, 0, 0);
+        margin-left: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        text-align: justify;
+        
+    
+    }
+    
+    .parrafo2{
+    
+        color: rgb(0, 0, 0);
+        margin-left: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        text-align: justify
+    
+    }
+    
+    .parrafo3{
+    
+        color: rgb(0, 0, 0);
+        margin-left: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        text-align: justify
+    
+    }
+
+    
+    .card{
+
+        float: left;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 15px;
+    }
+    .card-text{
+
+        text-align: justify;
+
+    }
+
+    #carouselExampleCaptions{
+
+        width: 50%;
+        float: right;
+
+    }
+
+    .carousel-control-prev{
+        color: white;
+    }
+
+    .accordion{
+
+        margin-left: 30px;
+    }
+
+    #pie{
+
+        background-color: rgb(20, 20, 20);
+        height: 70px;
+        color:white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    
+    }
+
+
+    @media(max-width:600px){
+        #encabezado {
+        
+            display: none;
+    
+         }
+    
+         .imagen3{
+    
+            border-radius: 10%;
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin-right:15px;
+            line-height: 100px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        
+        }
+        
+         #nav{
+            
+            height: 40px;
+            }
+        
+        #nav ol{
+         padding:0px;
+         margin:0p
+         }
+        
+        #nav ol li{
+         font-size: 8.7px;
+        
+        }
+    
+        #cuerpo{
+    
+            height: auto;
+            
+        }
+    
+        #cuerpo1{
+    
+            height: auto;
+            
+        }
+    
+        #cuerpo2{
+    
+            height: auto;
+            
+        }
+        
+        #cuerpo3{
+    
+            height: 160%;
+            margin-left: 30px;
+            
+        }
+    
+        #btn-menu:checked ~ #nav{
+        margin:0;
+        }
+    
+        #derecha{
+            width: 50%;
+            margin-top: 50px;
+            float: bottom;
+            display: table;
+            color: white;
+           }
+    
+           .imagen4{
+    
+            border-radius: 10%;
+            width: 370px;
+            height: 220px;
+            margin-right: 40px;
+        
+        
+           }
+
+           .card{
+
+            float: none;
+            margin-left: 30px;
+        }
+
+    
+    }
